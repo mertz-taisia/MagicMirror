@@ -1,78 +1,234 @@
-2025-02-10 19:24:40,608 - DEBUG - Og Pose Points: [(np.int64(410), np.int64(626)), (np.int64(269), np.int64(624)), (np.int64(386), np.int64(1056)), (np.int64(249), np.int64(1053))]
-2025-02-10 19:24:40,608 - DEBUG - Source Points (src): [[  0.   0.]
+2025-02-10 21:36:04,784 - DEBUG - Og Pose Points: [(np.int64(385), np.int64(792)), (np.int64(270), np.int64(794)), (np.int64(389), np.int64(1146)), (np.int64(288), np.int64(1138))]
+2025-02-10 21:36:04,784 - DEBUG - Source Points (src): [[  0.   0.]
+ [304.   0.]
+ [304. 805.]
+ [  0. 805.]]
+2025-02-10 21:36:04,784 - DEBUG - Destination Points (dest): [[ 454.  760.]
+ [ 201.  762.]
+ [ 219. 1138.]
+ [ 458. 1146.]]
+2025-02-10 21:36:04,785 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (805, 304, 4)
+2025-02-10 21:36:04,788 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:04,788 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:04,796 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:04,796 - DEBUG - Og Pose Points: [(np.int64(408), np.int64(535)), (np.int64(236), np.int64(550)), (np.int64(385), np.int64(792)), (np.int64(270), np.int64(794))]
+2025-02-10 21:36:04,796 - DEBUG - Source Points (src): [[  0.   0.]
+ [193.   0.]
+ [193. 217.]
+ [  0. 217.]]
+2025-02-10 21:36:04,796 - DEBUG - Destination Points (dest): [[477. 501.]
+ [167. 516.]
+ [146. 794.]
+ [509. 792.]]
+2025-02-10 21:36:04,796 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (217, 193, 4)
+2025-02-10 21:36:04,805 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:04,805 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:04,812 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:12,399 - DEBUG - Og Pose Points: [(np.int64(423), np.int64(676)), (np.int64(269), np.int64(683)), (np.int64(420), np.int64(1112)), (np.int64(280), np.int64(1120))]
+2025-02-10 21:36:12,399 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 407.    0.]
+ [ 407. 1077.]
+ [   0. 1077.]]
+2025-02-10 21:36:12,399 - DEBUG - Destination Points (dest): [[ 515.  633.]
+ [ 177.  640.]
+ [ 188. 1120.]
+ [ 512. 1112.]]
+2025-02-10 21:36:12,407 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1077, 407, 4)
+2025-02-10 21:36:12,407 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:12,407 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:12,431 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:12,431 - DEBUG - Og Pose Points: [(np.int64(469), np.int64(370)), (np.int64(215), np.int64(381)), (np.int64(423), np.int64(676)), (np.int64(269), np.int64(683))]
+2025-02-10 21:36:12,431 - DEBUG - Source Points (src): [[  0.   0.]
+ [285.   0.]
+ [285. 320.]
+ [  0. 320.]]
+2025-02-10 21:36:12,431 - DEBUG - Destination Points (dest): [[570. 320.]
+ [114. 331.]
+ [ 86. 683.]
+ [606. 676.]]
+2025-02-10 21:36:12,439 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (320, 285, 4)
+2025-02-10 21:36:12,439 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:12,439 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:12,455 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:17,299 - DEBUG - Og Pose Points: [(np.int64(423), np.int64(676)), (np.int64(242), np.int64(682)), (np.int64(415), np.int64(1163)), (np.int64(238), np.int64(1169))]
+2025-02-10 21:36:17,299 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 479.    0.]
+ [ 479. 1268.]
+ [   0. 1268.]]
+2025-02-10 21:36:17,299 - DEBUG - Destination Points (dest): [[ 531.  626.]
+ [ 134.  632.]
+ [ 130. 1169.]
+ [ 523. 1163.]]
+2025-02-10 21:36:17,300 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1268, 479, 4)
+2025-02-10 21:36:17,301 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:17,302 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:17,313 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:17,315 - DEBUG - Og Pose Points: [(np.int64(494), np.int64(351)), (np.int64(187), np.int64(346)), (np.int64(423), np.int64(676)), (np.int64(242), np.int64(682))]
+2025-02-10 21:36:17,315 - DEBUG - Source Points (src): [[  0.   0.]
+ [345.   0.]
+ [345. 388.]
+ [  0. 388.]]
+2025-02-10 21:36:17,315 - DEBUG - Destination Points (dest): [[616. 290.]
+ [ 65. 285.]
+ [ 21. 682.]
+ [644. 676.]]
+2025-02-10 21:36:17,316 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (388, 345, 4)
+2025-02-10 21:36:17,317 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:17,317 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:17,325 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:19,284 - DEBUG - Og Pose Points: [(np.int64(434), np.int64(691)), (np.int64(239), np.int64(691)), (np.int64(413), np.int64(1205)), (np.int64(233), np.int64(1198))]
+2025-02-10 21:36:19,284 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 516.    0.]
+ [ 516. 1366.]
+ [   0. 1366.]]
+2025-02-10 21:36:19,285 - DEBUG - Destination Points (dest): [[ 551.  637.]
+ [ 122.  637.]
+ [ 116. 1198.]
+ [ 530. 1205.]]
+2025-02-10 21:36:19,285 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1366, 516, 4)
+2025-02-10 21:36:19,289 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:19,290 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:19,300 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:19,305 - DEBUG - Og Pose Points: [(np.int64(506), np.int64(351)), (np.int64(185), np.int64(351)), (np.int64(434), np.int64(691)), (np.int64(239), np.int64(691))]
+2025-02-10 21:36:19,305 - DEBUG - Source Points (src): [[  0.   0.]
+ [361.   0.]
+ [361. 406.]
+ [  0. 406.]]
+2025-02-10 21:36:19,305 - DEBUG - Destination Points (dest): [[634. 287.]
+ [ 57. 287.]
+ [  8. 691.]
+ [665. 691.]]
+2025-02-10 21:36:19,306 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (406, 361, 4)
+2025-02-10 21:36:19,309 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:19,309 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:19,315 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:21,325 - DEBUG - Og Pose Points: [(np.int64(450), np.int64(698)), (np.int64(244), np.int64(700)), (np.int64(417), np.int64(1237)), (np.int64(235), np.int64(1224))]
+2025-02-10 21:36:21,325 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 545.    0.]
+ [ 545. 1443.]
+ [   0. 1443.]]
+2025-02-10 21:36:21,326 - DEBUG - Destination Points (dest): [[ 573.  641.]
+ [ 121.  643.]
+ [ 112. 1224.]
+ [ 540. 1237.]]
+2025-02-10 21:36:21,328 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1443, 545, 4)
+2025-02-10 21:36:21,333 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:21,333 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:21,364 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:21,369 - DEBUG - Og Pose Points: [(np.int64(516), np.int64(345)), (np.int64(184), np.int64(349)), (np.int64(450), np.int64(698)), (np.int64(244), np.int64(700))]
+2025-02-10 21:36:21,370 - DEBUG - Source Points (src): [[  0.   0.]
  [373.   0.]
- [373. 987.]
- [  0. 987.]]
-2025-02-10 19:24:40,609 - DEBUG - Destination Points (dest): [[ 494.  587.]
- [ 185.  585.]
- [ 165. 1053.]
- [ 470. 1056.]]
-2025-02-10 19:24:40,609 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (987, 373, 4)
-2025-02-10 19:24:40,610 - DEBUG - Transformed clothing image shape: (480, 640, 4)
-2025-02-10 19:24:40,610 - DEBUG - Clothing image has an alpha channel.
-2025-02-10 19:24:40,624 - DEBUG - Overlay operation completed.
-2025-02-10 19:24:40,626 - DEBUG - Og Pose Points: [(np.int64(460), np.int64(360)), (np.int64(249), np.int64(353)), (np.int64(410), np.int64(626)), (np.int64(269), np.int64(624))]
-2025-02-10 19:24:40,626 - DEBUG - Source Points (src): [[  0.   0.]
- [237.   0.]
- [237. 266.]
- [  0. 266.]]
-2025-02-10 19:24:40,627 - DEBUG - Destination Points (dest): [[544. 318.]
- [165. 311.]
- [117. 624.]
- [562. 626.]]
-2025-02-10 19:24:40,627 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (266, 237, 4)
-2025-02-10 19:24:40,627 - DEBUG - Transformed clothing image shape: (480, 640, 4)
-2025-02-10 19:24:40,627 - DEBUG - Clothing image has an alpha channel.
-2025-02-10 19:24:40,640 - DEBUG - Overlay operation completed.
-2025-02-10 19:25:04,634 - DEBUG - Og Pose Points: [(np.int64(397), np.int64(635)), (np.int64(245), np.int64(627)), (np.int64(383), np.int64(1038)), (np.int64(244), np.int64(1029))]
-2025-02-10 19:25:04,634 - DEBUG - Source Points (src): [[   0.    0.]
- [ 402.    0.]
- [ 402. 1064.]
- [   0. 1064.]]
-2025-02-10 19:25:04,635 - DEBUG - Destination Points (dest): [[ 488.  593.]
- [ 154.  585.]
- [ 153. 1029.]
- [ 474. 1038.]]
-2025-02-10 19:25:04,636 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1064, 402, 4)
-2025-02-10 19:25:04,638 - DEBUG - Transformed clothing image shape: (480, 640, 4)
-2025-02-10 19:25:04,638 - DEBUG - Clothing image has an alpha channel.
-2025-02-10 19:25:04,660 - DEBUG - Overlay operation completed.
-2025-02-10 19:25:04,668 - DEBUG - Og Pose Points: [(np.int64(460), np.int64(374)), (np.int64(221), np.int64(363)), (np.int64(397), np.int64(635)), (np.int64(245), np.int64(627))]
-2025-02-10 19:25:04,669 - DEBUG - Source Points (src): [[  0.   0.]
- [268.   0.]
- [268. 301.]
- [  0. 301.]]
-2025-02-10 19:25:04,669 - DEBUG - Destination Points (dest): [[555. 327.]
- [126. 316.]
- [ 73. 627.]
- [569. 635.]]
-2025-02-10 19:25:04,670 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (301, 268, 4)
-2025-02-10 19:25:04,673 - DEBUG - Transformed clothing image shape: (480, 640, 4)
-2025-02-10 19:25:04,673 - DEBUG - Clothing image has an alpha channel.
-2025-02-10 19:25:04,694 - DEBUG - Overlay operation completed.
-2025-02-10 19:25:12,103 - DEBUG - Og Pose Points: [(np.int64(398), np.int64(635)), (np.int64(249), np.int64(625)), (np.int64(383), np.int64(1019)), (np.int64(249), np.int64(1014))]
-2025-02-10 19:25:12,104 - DEBUG - Source Points (src): [[   0.    0.]
- [ 394.    0.]
- [ 394. 1043.]
- [   0. 1043.]]
-2025-02-10 19:25:12,104 - DEBUG - Destination Points (dest): [[ 487.  594.]
- [ 160.  584.]
- [ 160. 1014.]
- [ 472. 1019.]]
-2025-02-10 19:25:12,105 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1043, 394, 4)
-2025-02-10 19:25:12,106 - DEBUG - Transformed clothing image shape: (480, 640, 4)
-2025-02-10 19:25:12,107 - DEBUG - Clothing image has an alpha channel.
-2025-02-10 19:25:12,132 - DEBUG - Overlay operation completed.
-2025-02-10 19:25:12,141 - DEBUG - Og Pose Points: [(np.int64(463), np.int64(374)), (np.int64(227), np.int64(362)), (np.int64(398), np.int64(635)), (np.int64(249), np.int64(625))]
-2025-02-10 19:25:12,142 - DEBUG - Source Points (src): [[  0.   0.]
- [265.   0.]
- [265. 298.]
- [  0. 298.]]
-2025-02-10 19:25:12,142 - DEBUG - Destination Points (dest): [[557. 327.]
- [133. 315.]
- [ 79. 625.]
- [568. 635.]]
-2025-02-10 19:25:12,143 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (298, 265, 4)
-2025-02-10 19:25:12,145 - DEBUG - Transformed clothing image shape: (480, 640, 4)
-2025-02-10 19:25:12,145 - DEBUG - Clothing image has an alpha channel.
-2025-02-10 19:25:12,161 - DEBUG - Overlay operation completed.
+ [373. 419.]
+ [  0. 419.]]
+2025-02-10 21:36:21,371 - DEBUG - Destination Points (dest): [[648. 279.]
+ [ 52. 283.]
+ [  5. 700.]
+ [689. 698.]]
+2025-02-10 21:36:21,373 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (419, 373, 4)
+2025-02-10 21:36:21,376 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:21,377 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:21,388 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:23,950 - DEBUG - Og Pose Points: [(np.int64(464), np.int64(710)), (np.int64(246), np.int64(717)), (np.int64(430), np.int64(1297)), (np.int64(243), np.int64(1281))]
+2025-02-10 21:36:23,950 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 577.    0.]
+ [ 577. 1528.]
+ [   0. 1528.]]
+2025-02-10 21:36:23,950 - DEBUG - Destination Points (dest): [[ 594.  649.]
+ [ 116.  656.]
+ [ 113. 1281.]
+ [ 560. 1297.]]
+2025-02-10 21:36:23,951 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1528, 577, 4)
+2025-02-10 21:36:23,953 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:23,954 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:23,982 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:24,000 - DEBUG - Og Pose Points: [(np.int64(543), np.int64(362)), (np.int64(193), np.int64(359)), (np.int64(464), np.int64(710)), (np.int64(246), np.int64(717))]
+2025-02-10 21:36:24,001 - DEBUG - Source Points (src): [[  0.   0.]
+ [393.   0.]
+ [393. 442.]
+ [  0. 442.]]
+2025-02-10 21:36:24,001 - DEBUG - Destination Points (dest): [[683. 292.]
+ [ 53. 289.]
+ [ -6. 717.]
+ [716. 710.]]
+2025-02-10 21:36:24,003 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (442, 393, 4)
+2025-02-10 21:36:24,008 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:24,008 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:24,032 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:26,009 - DEBUG - Og Pose Points: [(np.int64(463), np.int64(720)), (np.int64(248), np.int64(725)), (np.int64(424), np.int64(1304)), (np.int64(233), np.int64(1288))]
+2025-02-10 21:36:26,011 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 569.    0.]
+ [ 569. 1506.]
+ [   0. 1506.]]
+2025-02-10 21:36:26,011 - DEBUG - Destination Points (dest): [[ 592.  660.]
+ [ 119.  665.]
+ [ 104. 1288.]
+ [ 553. 1304.]]
+2025-02-10 21:36:26,012 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1506, 569, 4)
+2025-02-10 21:36:26,014 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:26,014 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:26,029 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:26,034 - DEBUG - Og Pose Points: [(np.int64(536), np.int64(355)), (np.int64(197), np.int64(355)), (np.int64(463), np.int64(720)), (np.int64(248), np.int64(725))]
+2025-02-10 21:36:26,034 - DEBUG - Source Points (src): [[  0.   0.]
+ [381.   0.]
+ [381. 428.]
+ [  0. 428.]]
+2025-02-10 21:36:26,034 - DEBUG - Destination Points (dest): [[671. 288.]
+ [ 62. 288.]
+ [  4. 725.]
+ [707. 720.]]
+2025-02-10 21:36:26,035 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (428, 381, 4)
+2025-02-10 21:36:26,037 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:26,038 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:26,045 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:27,914 - DEBUG - Og Pose Points: [(np.int64(464), np.int64(727)), (np.int64(250), np.int64(729)), (np.int64(421), np.int64(1330)), (np.int64(229), np.int64(1314))]
+2025-02-10 21:36:27,915 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 566.    0.]
+ [ 566. 1498.]
+ [   0. 1498.]]
+2025-02-10 21:36:27,915 - DEBUG - Destination Points (dest): [[ 592.  668.]
+ [ 122.  670.]
+ [ 101. 1314.]
+ [ 549. 1330.]]
+2025-02-10 21:36:27,916 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1498, 566, 4)
+2025-02-10 21:36:27,920 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:27,921 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:27,944 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:27,948 - DEBUG - Og Pose Points: [(np.int64(534), np.int64(352)), (np.int64(200), np.int64(346)), (np.int64(464), np.int64(727)), (np.int64(250), np.int64(729))]
+2025-02-10 21:36:27,948 - DEBUG - Source Points (src): [[  0.   0.]
+ [375.   0.]
+ [375. 421.]
+ [  0. 421.]]
+2025-02-10 21:36:27,948 - DEBUG - Destination Points (dest): [[667. 286.]
+ [ 67. 280.]
+ [ 10. 729.]
+ [704. 727.]]
+2025-02-10 21:36:27,949 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (421, 375, 4)
+2025-02-10 21:36:27,950 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:27,950 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:27,959 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:29,882 - DEBUG - Og Pose Points: [(np.int64(465), np.int64(730)), (np.int64(249), np.int64(732)), (np.int64(428), np.int64(1331)), (np.int64(232), np.int64(1323))]
+2025-02-10 21:36:29,882 - DEBUG - Source Points (src): [[   0.    0.]
+ [ 572.    0.]
+ [ 572. 1514.]
+ [   0. 1514.]]
+2025-02-10 21:36:29,883 - DEBUG - Destination Points (dest): [[ 594.  670.]
+ [ 120.  672.]
+ [ 103. 1323.]
+ [ 557. 1331.]]
+2025-02-10 21:36:29,884 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (1514, 572, 4)
+2025-02-10 21:36:29,889 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:29,889 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:29,909 - DEBUG - Overlay operation completed.
+2025-02-10 21:36:29,914 - DEBUG - Og Pose Points: [(np.int64(529), np.int64(349)), (np.int64(197), np.int64(359)), (np.int64(465), np.int64(730)), (np.int64(249), np.int64(732))]
+2025-02-10 21:36:29,914 - DEBUG - Source Points (src): [[  0.   0.]
+ [373.   0.]
+ [373. 419.]
+ [  0. 419.]]
+2025-02-10 21:36:29,914 - DEBUG - Destination Points (dest): [[661. 283.]
+ [ 65. 293.]
+ [ 10. 732.]
+ [704. 730.]]
+2025-02-10 21:36:29,915 - DEBUG - Frame shape: (480, 640, 3), Clothing image shape: (419, 373, 4)
+2025-02-10 21:36:29,916 - DEBUG - Transformed clothing image shape: (480, 640, 4)
+2025-02-10 21:36:29,917 - DEBUG - Clothing image has an alpha channel.
+2025-02-10 21:36:29,933 - DEBUG - Overlay operation completed.
