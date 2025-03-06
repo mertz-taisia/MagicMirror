@@ -88,6 +88,7 @@ def get_clothing():
         name = request.args.get("name")
         category = request.args.get("category")
         clothing_type = request.args.get("clothing_type")
+        selected = request.args.get("selected")
 
         query = supabase.table("clothing-items").select("*")
 
@@ -99,7 +100,9 @@ def get_clothing():
             query = query.eq("category", category)
         elif clothing_type:
             query = query.eq("clothing_type", clothing_type)
-
+        elif selected:
+            query = query.eq("selected", selected.lower())
+        
         response = query.execute()
 
         if not response.data:

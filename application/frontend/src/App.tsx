@@ -1,14 +1,13 @@
-import { useState } from "react";
-import "./App.css";
-import FemaleModel from "./components/FemaleModel.tsx";
+import CharacterCustomization from "./components/CharacterCustomization.tsx";
+import LandingPage from "./components/LandingPage";
 
 
 function App() {
 
   return (
-    <>
-      <FemaleModel></FemaleModel>
-    </>
+    <div className="w-screen h-screen">
+      <LandingPage/>
+    </div>
   );
 }
 
